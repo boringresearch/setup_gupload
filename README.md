@@ -15,9 +15,9 @@ The secret file is accessed via the environmental variable `GOOGLE_APPLICATION_C
 ## Requirements
 
 * Python 3 + PIP
-* Enabled Google Drive API (you can do it in the Google Cloud Console)
-* Google service account (you can do it in the Google Cloud Console)
-* Credential JSON file to the service account
+* Enabled [Google Drive API](https://console.cloud.google.com/marketplace/product/google/drive.googleapis.com?q=search&referrer=search&organizationId=0) (you can do it in the Google Cloud Console)
+* Create [Google service account](https://console.cloud.google.com/iam-admin/serviceaccounts/create?project=mystical-sphinx-367722) (you can do it in the Google Cloud Console)
+* Add key: [Credential JSON file](https://console.cloud.google.com/iam-admin/serviceaccounts/details/110709144618417045053;edit=true/keys?project=mystical-sphinx-367722) to the service account
 * Configured environmental variable `GOOGLE_APPLICATION_CREDENTIALS` to the service account credentials
 
 ## Installation
